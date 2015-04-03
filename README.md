@@ -1,2 +1,0 @@
-# TdC
-My TdC notes
