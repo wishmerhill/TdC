@@ -319,16 +319,44 @@ Causa = Effetto
 
 Il foglietto di Mao di Nadia Baldassino:
 
+\newpage
+
 \section{Campo 2}
 
 \begin{gather}
-\boxed{
-0 < \varepsilon_c  \leq \varepsilon_{c_2} \\[10pt]
-\Psi = 1 + \frac{1}{n +1 } \cdot \frac{\varepsilon_{c_2}}{\varepsilon_c} \cdot \left( 1- \frac{\varepsilon_c}{\varepsilon_{c_2}}\right)^{(n-1)} - \frac{1}{n+1} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_c} \\[10pt]
+\text{nel caso di: } 0 < \varepsilon_c  \leq \varepsilon_{c_2} \nonumber \\[10pt] 
+\Psi = 1 + \frac{1}{n +1 } \cdot \frac{\varepsilon_{c_2}}{\varepsilon_c} \cdot \left( 1- \frac{\varepsilon_c}{\varepsilon_{c_2}}\right)^{(n-1)} - \frac{1}{n+1} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_c} \\[10pt] \nonumber
 \lambda = \frac{\frac{1}{2} - \frac{1}{\varepsilon_c} \left[ \frac{\varepsilon_{c_2}}{n +1} + \frac{\varepsilon_{c_2}^2}{(n+1)(n+2)} \cdot \frac{1}{\varepsilon_c} \cdot \left( 1 - \frac{\varepsilon_c}{\varepsilon_{c2}} \right)^{(n + 2)} - \frac{1}{\varepsilon_c}  \cdot \frac{\varepsilon_{c_2}^2}{(n +1)(n+2)}\right]}{1 + \frac{1}{(n+1)} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_{c}} \cdot \left( 1 - \frac{\varepsilon_{c}}{\varepsilon_{c2}} \right)^{(n+1)} - \frac{1}{n+1} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_{c}} }
-}
 \end{gather}
 
+\begin{gather}
+\text{nel caso di: } \varepsilon_{c_2} \leq \varepsilon_c \leq \varepsilon_{cu_2} \nonumber \\[10pt] 
+\Psi = 1 - \frac{1}{n + 1} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_c} \\[10pt]
+\nonumber 
+\lambda = \frac{ \left( 1- \frac{n+3}{2 (n+2) } \frac{\varepsilon_{c_2} }{\varepsilon_c} \right) \cdot \frac{n}{n + 1} \cdot \frac{\varepsilon_{c_2} }{\varepsilon_c} + \frac{1}{2} \cdot \left( 1- \frac{\varepsilon_{c_2} }{\varepsilon_c} \right)^2 }{1 - \frac{1}{n+1} \cdot \frac{\varepsilon_{c_2} }{\varepsilon_c}}
+\end{gather}
+
+\section{campo 6}
+\begin{gather}
+\Psi = 1- \frac{1}{n+1} \cdot \frac{\varepsilon_{c_2} }{\varepsilon_cu} \cdot \left( \frac{\varepsilon_{cs} - \varepsilon_{c_2}}{\varepsilon_{cu} - \varepsilon_{c_2}} \right)^n
+\nonumber \\
+\lambda = \frac
+				{
+				\frac{1}{2} + \frac{1}{n + 1} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_{cu}} \cdot
+				\left( 
+					\frac{\varepsilon_{cs} - \varepsilon_{c_2}}{\varepsilon_{cu} - \varepsilon_{c_2}}
+				\right)^n \cdot
+				\left(
+					-1 + \frac{1}{n +2} \frac{\varepsilon_{c_2}}{\varepsilon_{cu}}
+				\right)
+				}
+				{
+					1- \frac{1}{n+1} \cdot \frac{\varepsilon_{c_2}}{\varepsilon_{cu} } 
+					\left( 
+						\frac{\varepsilon_{cs} - \varepsilon_{c_2}}{\varepsilon_{cu} - \varepsilon_{c_2}} 
+					\right)^n 
+				}
+\end{gather}
 \end{appendices}
 
 
