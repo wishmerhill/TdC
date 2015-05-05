@@ -1,8 +1,8 @@
 \documentclass[a4paper,12pt]{book}
-\usepackage[toc,page]{appendix}
 \usepackage[T1]{fontenc}
 \usepackage[latin1]{inputenc}
 \usepackage[italian]{babel}
+\usepackage[toc]{appendix}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{layaureo}
@@ -11,6 +11,8 @@
 \usepackage{mathcomp}
 
 \begin{document}
+
+\tableofcontents
 
 \chapter{La sicurezza strutturale}
 Una struttura non è mai sicura al 100\%, ma ha una sua possibilità di collasso. L'analisi che si fa è di tipo probabilistico e tende a minimizzare o a rendere accettabile la probabilità di collasso della struttura stessa.
@@ -40,7 +42,8 @@ In tutti casi in cui $r>s$ la struttura, in generale, starà bene. Viceversa, se 
 
 La probabilità di rovina è il volume sotteso dalla curva di densità di probabilità nel dominio non sicuro.
 
-\paragraph{Coefficiente di sicurezza:} \begin{equation}
+\paragraph{Coefficiente di sicurezza:} 
+\begin{equation}
 F_s = \frac{R}{S} \text{   } \left( \dfrac{\text{resistenza}}{\text{sollecitazione}} \right)
 \end{equation}
 
@@ -78,16 +81,33 @@ $R$ e $S$ sono pertanto, per il metodo 2, statisticamente indipendenti. In realt
 *** completare ***
 
 \section{Livello 1 - stati limite}
+dummy text
+
+\section{Livello 0 - tensioni ammissibili}
+dummy text
+
+\chapter{Classificazione delle azioni}
+
+\section{Combinazione dei carichi}
+
+\section{Resistenze dei materiali}
+
+\section{Carico da neve}
+
+\section{Carico da Vento} 
+
+
 
 \chapter{Elemento inflesso}
 
 \section{Calcolo elastico dell'elemento semplicemente inflesso}
 Ipotesi:
-La sezione ruota e trasla e si mantiene piana.
+\begin{itemize}
+\item La sezione ruota e trasla e si mantiene piana.
+\item La sezione resistente è costituita dal calcestruzzo compresso (al di sopra dell'asse neutro quindi) e dalle armature (compresse e tese). Trascuro la resistenza a trazione del calcestruzzo. 
+\item non vale la sovrapposizione degli effetti in quanto la sezione è parzializzata e trascurando la resistenza a trazione del CLS mi trovo con un diagramma delle tensioni che al di sotto dell'asse neutro ha senso solo per le armature inferiori in quanto il CLS non va considerato.
+\end{itemize}
 
-La sezione resistente è costituita dal calcestruzzo compresso (al di sopra dell'asse neutro quindi) e dalle armature (compresse e tese). Trascuro la resistenza a trazione del calcestruzzo. 
-
-* non vale la sovrapposizione degli effetti * [NdA: perchè?]
 
 Faccio la verifica sulla massima compressione per calcestruzzo e acciaio, per la massima trazione solo per l'acciaio.
 
